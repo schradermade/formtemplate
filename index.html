@@ -13,13 +13,36 @@
   </head>
   <body>
     <div class="container">
-      <h1>Address Book</h1>
+      <h1>Movie Tickets</h1>
       <form id="formOne">
         <div class="form-group">
-          <label for="firstName">First Name</label>
-          <input type="text" class="form-control" id="firstName" />
+          <label for="customer-name">Customer Name</label>
+          <input
+            type="text"
+            class="form-control"
+            id="customer-name"
+            value="Christian"
+          />
         </div>
-        <button type="submit" class="btn-primary">Submit</button>
+        <div class="form-group">
+          <label for="movie-time">Movie Time</label>
+          <input
+            type="text"
+            class="form-control"
+            id="movie-time"
+            value="3:30pm"
+          />
+        </div>
+        <div class="form-group">
+          <label for="movie-name">Movie Name</label>
+          <input
+            type="text"
+            class="form-control"
+            id="movie-name"
+            value="Avatar"
+          />
+        </div>
+        <button type="submit" class="btn-primary">Get my movie ticket!</button>
       </form>
       <div id="results"></div>
     </div>
